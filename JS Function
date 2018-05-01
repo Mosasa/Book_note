@@ -1,2 +1,10 @@
 Function=函数名+函数参数+函数体
 一.函数是一组允许在代码里随时调用的语句。如果需要多次使用同一段代码，可以将其封装成一个函数。
+       作为一种良好的编程习惯，应先对函数做出定义再调用它们。
+       实例：  function shout(){
+                   var beatles=Array("Tohn","paul","George","Ringo");
+                   for(var count=0; count<beatles.length;count++){
+                       alert(beatles[count]);
+                   }
+               }
+               shout();
